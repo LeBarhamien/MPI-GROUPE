@@ -375,22 +375,22 @@ document.addEventListener('DOMContentLoaded', function() {
     if (productsGrid) {
         // Liste enrichie des produits
         const produits = [
-            { nom: 'Bétonnière 350L', categorie: 'location', prix: '25 000 FCFA/jour', description: 'Bétonnière professionnelle robuste.', image: 'assets/images/12.png' },
-            { nom: 'Groupe électrogène 15 kVA', categorie: 'vente', prix: '450 000 FCFA', description: 'Silencieux, démarrage électrique.', image: 'assets/images/13.png' },
-            { nom: 'Pelle mécanique 20T', categorie: 'location', prix: '150 000 FCFA/jour', description: 'Avec godet 1m³ et opérateur.', image: 'assets/images/14.png' },
-            { nom: 'Compacteur vibrant', categorie: 'location', prix: '40 000 FCFA/jour', description: 'Compactage de sols efficace.', image: 'assets/images/15.png' },
-            { nom: 'Marteau piqueur 1700W', categorie: 'vente', prix: '180 000 FCFA', description: 'Perforateur puissant.', image: 'assets/images/16.png' },
-            { nom: 'Échafaudage modulaire', categorie: 'location', prix: '15 000 FCFA/jour', description: 'Hauteur réglable, sécurité.', image: 'assets/images/17.png' },
-            { nom: 'Camion benne 10 roues', categorie: 'location', prix: '120 000 FCFA/jour', description: 'Capacité 15m³ avec chauffeur.', image: 'assets/images/18.png' },
-            { nom: 'Niveleuse motorisée', categorie: 'location', prix: '200 000 FCFA/jour', description: 'Nivellement de précision.', image: 'assets/images/19.png' },
-            { nom: 'Grue mobile 50T', categorie: 'location', prix: '350 000 FCFA/jour', description: 'Portée 40 mètres.', image: 'assets/images/20.png' },
-            { nom: 'Chargeuse compacte', categorie: 'vente', prix: '8 500 000 FCFA', description: 'Godet 2m³, moteur diesel.', image: 'assets/images/21.png' },
-            { nom: 'Scie à béton', categorie: 'vente', prix: '95 000 FCFA', description: 'Découpe précise, lame diamant.', image: 'assets/images/22.png' },
-            { nom: 'Compresseur d\'air', categorie: 'location', prix: '35 000 FCFA/jour', description: 'Compresseur 200 litres, puissance 3CV.', image: 'assets/images/23.png' },
-            { nom: 'Terrain à vendre', categorie: 'vente', prix: '3 500 000 FCFA', description: 'superficie : 300 mettre carré, situé à Dougar près de la route nationnal, eau, wifi et éléctricité accessible.', image: 'assets/images/TAV.png' },
-            { nom: 'Appartement à louer', categorie: 'location', prix: '100 000 FCFA/mois', description: 'Appartement 3 chambres, sallon et cuisines, Diamniadio cité fonctionnaires.', image: 'assets/images/AP AL.png' },
-            { nom: 'Appartement Meubler', categorie: 'location', prix: '35 000 FCFA/jour', description: 'Appartement meublé, Diamniadio cité fonctionnaires.', image: 'assets/images/AP Meuble.png' },
-            { nom: 'Chambre à louer', categorie: 'location', prix: '45 000 FCFA/mois', description: 'Chambre plus salle de bain à louer.', image: 'assets/images/C AL.png' }
+            { nom: 'Bétonnière 350L', categorie: 'location', prix: '25 000 FCFA/jour', description: 'Bétonnière professionnelle robuste.', image: 'assets/images/12.webp' },
+            { nom: 'Groupe électrogène 15 kVA', categorie: 'vente', prix: '450 000 FCFA', description: 'Silencieux, démarrage électrique.', image: 'assets/images/13.webp' },
+            { nom: 'Pelle mécanique 20T', categorie: 'location', prix: '150 000 FCFA/jour', description: 'Avec godet 1m³ et opérateur.', image: 'assets/images/14.webp' },
+            { nom: 'Compacteur vibrant', categorie: 'location', prix: '40 000 FCFA/jour', description: 'Compactage de sols efficace.', image: 'assets/images/15.webp' },
+            { nom: 'Marteau piqueur 1700W', categorie: 'vente', prix: '180 000 FCFA', description: 'Perforateur puissant.', image: 'assets/images/16.webp' },
+            { nom: 'Échafaudage modulaire', categorie: 'location', prix: '15 000 FCFA/jour', description: 'Hauteur réglable, sécurité.', image: 'assets/images/17.webp' },
+            { nom: 'Camion benne 10 roues', categorie: 'location', prix: '120 000 FCFA/jour', description: 'Capacité 15m³ avec chauffeur.', image: 'assets/images/18.webp' },
+            { nom: 'Niveleuse motorisée', categorie: 'location', prix: '200 000 FCFA/jour', description: 'Nivellement de précision.', image: 'assets/images/19.webp' },
+            { nom: 'Grue mobile 50T', categorie: 'location', prix: '350 000 FCFA/jour', description: 'Portée 40 mètres.', image: 'assets/images/20.webp' },
+            { nom: 'Chargeuse compacte', categorie: 'vente', prix: '8 500 000 FCFA', description: 'Godet 2m³, moteur diesel.', image: 'assets/images/21.webp' },
+            { nom: 'Scie à béton', categorie: 'vente', prix: '95 000 FCFA', description: 'Découpe précise, lame diamant.', image: 'assets/images/22.webp' },
+            { nom: 'Compresseur d\'air', categorie: 'location', prix: '35 000 FCFA/jour', description: 'Compresseur 200 litres, puissance 3CV.', image: 'assets/images/23.webp' },
+            { nom: 'Terrain à vendre', categorie: 'vente', prix: '3 500 000 FCFA', description: 'superficie : 300 mettre carré, situé à Dougar près de la route nationnal, eau, wifi et éléctricité accessible.', image: 'assets/images/TAV.webp' },
+            { nom: 'Appartement à louer', categorie: 'location', prix: '100 000 FCFA/mois', description: 'Appartement 3 chambres, sallon et cuisines, Diamniadio cité fonctionnaires.', image: 'assets/images/AP AL.webp' },
+            { nom: 'Appartement Meubler', categorie: 'location', prix: '35 000 FCFA/jour', description: 'Appartement meublé, Diamniadio cité fonctionnaires.', image: 'assets/images/AP Meuble.webp' },
+            { nom: 'Chambre à louer', categorie: 'location', prix: '45 000 FCFA/mois', description: 'Chambre plus salle de bain à louer.', image: 'assets/images/C AL.webp' }
         ];
 
         let filtreActif = 'tous'; // catégorie sélectionnée
